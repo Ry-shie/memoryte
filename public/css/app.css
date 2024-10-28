@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.body {
+    margin: 0;
+    background-color: #F7EFE5;
+}
+.header {
+    width: auto;
+    padding: 15px 35px;
+    border-radius: 0 0 10px 10px;
+    background-color: #C8A1E0;
+    color: black;
+    font-family: sans-serif;
+    font-size: 10px;
+}
+.header h1 {
+    display: inline-block;
+    width: auto;
+    margin: 0;
+
+}
+.header img {
+    width: 20px;
+    margin: 0 0 5px 5px;
+}
+.header .button {
+    float: right;
+    top: 10px;
+    right: 10px;
+    padding: 2px;
+    border: none;
+    border-radius: 10px;
+    background-color:#C8A1E0;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: black;
+}
+.header .img {
+    float: right;
+    top: 10px;
+    right: 10px;
+    margin: 8px 10px 0 0;
+}
+/* -------------------------------- */
+.note-viewer {
+    width: auto;
+    max-width: 1200px;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 20px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+.note-viewer h1, 
+.note-viewer p {
+    margin: 10px 0;
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+.note-viewer .create-note {
+    display: inline-block;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 4px silver;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: black;
+}
+.note-viewer .create-note:hover {
+    color: #674188;
+}
+.note-viewer .button {
+    float: right;
+    top: 10px;
+    right: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color:#C8A1E0;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: black;
+}
+.note-viewer img {
+    width: 20px;
+    margin-right: 10px;
+}
+.note-viewer .note {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #E2BFD9;
+    font-family: sans-serif;
+}
+.note-viewer .note:hover {
+    background-color: #C8A1E0;
+}
+.note-viewer .note img {
+    width: 20px;
+    margin-right: 10px;
+}
+.note-viewer .note h3, 
+.note-viewer .note p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 95%;
+    margin: 10px 0;
+
+}
+/* ----------------------------- */
+.note-creator {
+    width: auto;
+    max-width: 1200px;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.note-creator p {
+    margin: 20px;
+    font-family: sans-serif;
+}
+.note-creator input {
+    width: 100%;        
+    border: none;             
+    border-radius: 5px;    
+    padding: 10px;
+    font-family: sans-serif;         
+    font-size: 16px;          
+    line-height: 1.5;
+}
+.note-creator textarea {
+    width: 90%;         
+    border: none;             
+    border-radius: 5px;    
+    padding: 20px;
+    font-family: sans-serif;      
+    font-size: 16px;          
+    line-height: 1.5;
+    resize: none;
+    overflow: hidden;
+}
+.note-creator input:focus,
+.note-creator textarea:focus {
+    outline: none;
+}
+.note-creator button {
+    display: block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color:#C8A1E0;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: black;
+}
+
+.footer {
+    padding: 0 30px;
+    font-family: sans-serif;
+    font-size: 10px;
+}
+.footer p {
+    display: inline;
+}
